@@ -2,8 +2,8 @@ import pygame
 import sys
 
 data = list(map(str.strip, sys.stdin))
-w = data[0]
-h = data[1]
+w = int(data[0])
+h = int(data[1])
 if type(w) == int and type(h) == int:
     if __name__ == '__main__':
         # инициализация Pygame:
